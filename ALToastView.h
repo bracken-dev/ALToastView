@@ -31,6 +31,6 @@
 	UILabel *_textLabel;
 }
 
-+ (void)toastInView:(UIView *)parentView withText:(NSString *)text;
++ (void)toastInView:(UIView *)parentView withText:(NSString *)text keyboardBug:(BOOL)fix;
 
 @end
